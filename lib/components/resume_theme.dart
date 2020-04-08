@@ -17,6 +17,12 @@ class ResumeTheme {
         .copyWith(color: Theme.of(context).primaryColorDark);
   }
 
+  static TextStyle titleExperienceText(BuildContext context) {
+    return titleText(context)
+        .copyWith(fontSize: 16)
+        .copyWith(fontWeight: FontWeight.bold);
+  }
+
   static TextStyle subTitleText(BuildContext context) {
     return Theme.of(context)
         .textTheme
