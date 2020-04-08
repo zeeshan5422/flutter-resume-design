@@ -2,6 +2,10 @@
 
 Zeeshan Akhtar Resume
 
+- (https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif)
+
+- (https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/part2gif.gif)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
