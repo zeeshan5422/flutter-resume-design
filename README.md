@@ -2,9 +2,9 @@
 
 Zeeshan Akhtar Resume
 
-<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:200%;position:relative;"><iframe width="260" height="520" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif"></iframe></div><p><a href="https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif">.</a></p></div>
+<img src="https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif" width="40" height="80" />
 
-- (https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif)
+![](https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif)
 
 - (https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/part2gif.gif)
 
