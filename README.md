@@ -1,12 +1,17 @@
 # template
 
-Zeeshan Akhtar Resume
-
-<img src="https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif" width="100" height="200" />
-<img src="https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/part2gif.gif" width="100" height="200" />
-
+Zeeshan Akhtar Resume UI Design developed in Flutter.
 
 ![](https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif)
+![](https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/part2gif.gif)
+
+
+# Change Theme by changing one line of code.
+![](https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/screenshot1.jpeg)
+![](https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/screenshot2.jpeg)
+
+This sample is easy to customize, Just need to change the description of resume in just one file and our resume is ready to go.
+
 
 
 ## Getting Started
