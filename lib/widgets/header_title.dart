@@ -22,7 +22,7 @@ class HeaderTitle extends StatelessWidget {
               ),
               width: MediaQuery.of(context).size.width * 0.75,
               child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(5.0),
                 child: Text(
                   "",
                   style: ResumeTheme.titleText(context),
@@ -39,7 +39,7 @@ class HeaderTitle extends StatelessWidget {
               ),
               width: MediaQuery.of(context).size.width * 0.7,
               child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(5.0),
                 child: Text(
                   mTitle.title,
                   style: ResumeTheme.titleText(context),

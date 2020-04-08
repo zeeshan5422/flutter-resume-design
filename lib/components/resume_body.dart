@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:template/components/resmme_experience.dart';
+import 'package:template/components/resume_experience.dart';
+import 'package:template/components/resume_interest.dart';
 import 'package:template/components/resume_skills.dart';
 import 'package:template/components/resume_theme.dart';
 import 'package:template/components/resume_work_history.dart';
@@ -58,6 +59,14 @@ class ResumeBody extends StatelessWidget {
               ResumeWorkHistory(workHistory: workHistory)
           ]),
           HeaderTitle(
+            mTitle: TitleModel("Community Work"),
+          ),
+          _content([
+            for (ContentExperience contentExperience
+                in resumeContent.communityWorkList)
+              ResumeExperience(experience: contentExperience)
+          ]),
+          HeaderTitle(
             mTitle: TitleModel("Experience"),
           ),
           _content([
@@ -69,7 +78,7 @@ class ResumeBody extends StatelessWidget {
             mTitle: TitleModel("Hobbies and Interests"),
           ),
           _content([
-            _paragraph(resumeContent.hobbies, context)
+            ResumeInterest(interestList: resumeContent.interestList),
           ]), // update hobbies and Interest with icons and description form
           HeaderTitle(
             mTitle: TitleModel("Reference"),

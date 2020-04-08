@@ -19,7 +19,7 @@ class ResumeTheme {
 
   static TextStyle titleExperienceText(BuildContext context) {
     return titleText(context)
-        .copyWith(fontSize: 16)
+        .copyWith(fontSize: 14)
         .copyWith(fontWeight: FontWeight.bold);
   }
 

@@ -4,6 +4,7 @@ import 'package:template/components/resume_theme.dart';
 import 'package:template/models/ResumeContent.dart';
 import 'package:template/widgets/header_bg_dark.dart';
 import 'package:template/widgets/header_bg_light.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class ResumeHeader extends StatelessWidget {
   final ResumeContent resumeContent;
@@ -50,8 +51,8 @@ class ResumeHeader extends StatelessWidget {
                         color: Theme.of(context).primaryColorLight,
                         boxShadow: [
                           new BoxShadow(
-                            color: Colors.black.withOpacity(0.5),
-                            blurRadius: 10.0,
+                            color: Colors.black.withOpacity(0.7),
+                            blurRadius: 15.0,
                           ),
                         ]),
                     child: CircleAvatar(
@@ -87,16 +88,27 @@ class ResumeHeader extends StatelessWidget {
                               IconButton(
                                 color: Theme.of(context).primaryColor,
                                 icon: Icon(FontAwesomeIcons.linkedin),
-                                onPressed: () {},
+                                onPressed: () {
+                                  _onOpen(resumeContent
+                                      .profileInformation.linkedIn);
+                                },
+                              ),
+                              IconButton(
+                                color: Theme.of(context).primaryColor,
+                                icon: new Icon(FontAwesomeIcons.github),
+                                onPressed: () {
+                                  _onOpen(
+                                      resumeContent.profileInformation.github);
+                                },
                               ),
                               IconButton(
                                   color: Theme.of(context).primaryColor,
-                                  icon: new Icon(FontAwesomeIcons.github),
-                                  onPressed: () {}),
-                              IconButton(
-                                  color: Theme.of(context).primaryColor,
-                                  icon: new Icon(FontAwesomeIcons.instagram),
-                                  onPressed: () {}),
+                                  icon:
+                                      new Icon(FontAwesomeIcons.stackOverflow),
+                                  onPressed: () {
+                                    _onOpen(resumeContent
+                                        .profileInformation.stackOverFlow);
+                                  }),
                               IconButton(
                                   color: Theme.of(context).primaryColor,
                                   icon: new Icon(Icons.email),
@@ -141,5 +153,13 @@ class ResumeHeader extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  Future<void> _onOpen(String link) async {
+    if (await canLaunch(link)) {
+      await launch(link);
+    } else {
+      throw 'Could not launch $link';
+    }
   }
 }
