@@ -2,11 +2,12 @@
 
 Zeeshan Akhtar Resume
 
-<img src="https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif" width="40" height="80" />
+<img src="https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif" width="100" height="200" />
+<img src="https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/part2gif.gif" width="100" height="200" />
+
 
 ![](https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/3vwud5.gif)
 
-- (https://github.com/zeeshan5422/flutter-resume-design/blob/master/sample/part2gif.gif)
 
 ## Getting Started
 
